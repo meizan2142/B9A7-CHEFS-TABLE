@@ -1,7 +1,7 @@
 const Header = () => {
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-base-100 mt-12">
                 <div className="navbar-start text-3xl font-bold">
                     <h1>Recipe Calories</h1>
                 </div>
