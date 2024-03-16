@@ -2,7 +2,7 @@
     {
       "recipe_id": 1,
       "recipe_name": "Chicken Stir Fry",
-      "recipe_image": "chicken_stir_fry.jpg",
+      "recipe_image": "https://i.ibb.co/n3SGTNs/photo-1602253057119-44d745d9b860.jpg",
       "short_description": "A delicious and healthy chicken stir fry recipe.",
       "ingredients": [
         "550 g chicken",
@@ -16,7 +16,7 @@
     {
       "recipe_id": 2,
       "recipe_name": "Vegetable Curry",
-      "recipe_image": "vegetable_curry.jpg",
+      "recipe_image": "https://i.ibb.co/TmFhWvx/photo-1604152135912-04a022e23696.jpg",
       "short_description": "A flavorful and aromatic vegetable curry.",
       "ingredients": [
         "500 g mixed vegetables (e.g., carrots, potatoes, peas)",
@@ -30,7 +30,7 @@
     {
       "recipe_id": 3,
       "recipe_name": "Spaghetti Bolognese",
-      "recipe_image": "spaghetti_bolognese.jpg",
+      "recipe_image": "https://i.ibb.co/brcSpT1/photo-1617474019977-0e105d1b430e.jpg",
       "short_description": "Classic Italian pasta dish with a rich meat sauce.",
       "ingredients": [
         "400 g spaghetti",
@@ -45,7 +45,7 @@
     {
       "recipe_id": 4,
       "recipe_name": "Greek Salad",
-      "recipe_image": "greek_salad.jpg",
+      "recipe_image": "https://i.ibb.co/R6vWQcP/premium-photo-1670263778678-54cde45cd1f5.jpg",
       "short_description": "A refreshing salad with tomatoes, cucumbers, feta cheese, and olives.",
       "ingredients": [
         "2 tomatoes, diced",
@@ -62,7 +62,7 @@
     {
       "recipe_id": 5,
       "recipe_name": "Banana Smoothie",
-      "recipe_image": "banana_smoothie.jpg",
+      "recipe_image": "https://i.ibb.co/YhTc5Yt/premium-photo-1673581152308-591c1645be02.jpg",
       "short_description": "A creamy and delicious banana smoothie for a quick breakfast or snack.",
       "ingredients": [
         "2 ripe bananas",
@@ -77,7 +77,7 @@
     {
       "recipe_id": 6,
       "recipe_name": "Grilled Salmon",
-      "recipe_image": "grilled_salmon.jpg",
+      "recipe_image": "https://i.ibb.co/18R4qVG/premium-photo-1673590981774-d9f534e0c617.jpg",
       "short_description": "Healthy and flavorful grilled salmon fillets with lemon and herbs.",
       "ingredients": [
         "4 salmon fillets",
