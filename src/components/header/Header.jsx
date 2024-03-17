@@ -42,6 +42,10 @@ const Header = () => {
                 </div>
             </div>
             {/* Hero section ends here */}
+            <div className="space-y-6 mt-12">
+                <h1 className="font-semibold text-4xl">Our Recipes</h1>
+                <p className="">Our Recipes offers a diverse culinary repertoire to inspire home cooks with creative and delicious dishes.</p>
+            </div>
         </div>
     )
 }
