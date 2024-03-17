@@ -9,7 +9,7 @@ const Recipes = () => {
                 <div className="mt-11 flex gap-6">
                     <div className="card w-[355px] bg-base-100 shadow-xl">
                         <figure className="px-10 pt-10">
-                            <img src="https://i.ibb.co/n3SGTNs/photo-1602253057119-44d745d9b860.jpg" alt="Shoes" className="rounded-xl" />
+                            <img src="https://i.ibb.co/XzWbRt2/photo-1512058564366-18510be2db19.jpg" alt="Shoes" className="rounded-xl" />
                         </figure>
                         <div className="px-5 pt-10">
                             <h2 className="card-title">Spaghetti Bolognese</h2>
@@ -41,7 +41,7 @@ const Recipes = () => {
                     </div>
                     <div className="card w-[355px] bg-base-100 shadow-xl">
                         <figure className="px-10 pt-10">
-                            <img src="https://i.ibb.co/n3SGTNs/photo-1602253057119-44d745d9b860.jpg" alt="Shoes" className="rounded-xl" />
+                            <img src="https://i.ibb.co/QPX2xwv/photo-1604908177453-7462950a6a3b.jpg" alt="Shoes" className="rounded-xl" />
                         </figure>
                         <div className="px-5 pt-10">
                             <h2 className="card-title">Spaghetti Bolognese</h2>
