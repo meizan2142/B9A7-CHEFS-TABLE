@@ -18,13 +18,13 @@ function App() {
       .then(data => setRecipeInfo(data))
   }, [])
   const handleWantToCook = (rec) => {
-    // setCookBtn = cookBtn + 1;
+    
     // console.log(cookBtn);
     const isExist = wantToCook.find(reci => reci.recipe_id == rec.recipe_id)
     // console.log(isExist);
     if (!isExist) {
       setWantToCook([...wantToCook, rec])
-      console.log('Hi');
+      setCookBtn(cookBtn + 1)
     }
     else {
       toast("Recipe already added!", {
