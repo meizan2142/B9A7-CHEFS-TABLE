@@ -11,20 +11,20 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
   const [recipeInfo, setRecipeInfo] = useState([]);
   const [wantToCook, setWantToCook] = useState([]);
-  let cookCount = 0;
-  let currentlyCookingCount = 0;
-  // const notify = () => toast("Wow so easy!");
+  const [cookBtn, setCookBtn] = useState(0);
   useEffect(() => {
     fetch('blogs.json')
       .then(response => response.json())
       .then(data => setRecipeInfo(data))
   }, [])
   const handleWantToCook = (rec) => {
-    // console.log(rec);
+    // setCookBtn = cookBtn + 1;
+    // console.log(cookBtn);
     const isExist = wantToCook.find(reci => reci.recipe_id == rec.recipe_id)
     // console.log(isExist);
     if (!isExist) {
       setWantToCook([...wantToCook, rec])
+      console.log('Hi');
     }
     else {
       toast("Recipe already added!", {
@@ -33,7 +33,7 @@ function App() {
       });
     }
   };
-  console.log(wantToCook);
+  // console.log(wantToCook);
 
   return (
 
@@ -53,7 +53,7 @@ function App() {
             <div>
               <div className="pt-5">
                 
-                <p className="font-semibold text-xl">Want to Cook: 0</p>
+                <p className="font-semibold text-xl">Want to Cook: {cookBtn}</p>
                 <div className="flex justify-start gap-16 px-12 pt-3">
                   <p>Name</p>
                   <p>Time</p>
